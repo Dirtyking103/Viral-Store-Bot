@@ -18,7 +18,7 @@ API_HASH = environ.get("API_HASH", "8ec41c246b5074ab926933fb286fb43f")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7376265851:AAEqtHCPRXs7g9JU2zt7nfdks9SkLAnogdk")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/abb6631a3363a2af2544f.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7202892465').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1740287480').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Viralworldbot") # without @
 PORT = environ.get("PORT", "8080")
 
